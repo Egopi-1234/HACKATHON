@@ -1,0 +1,29 @@
+The customer requirements for Car A from Conv3: 
+
+
+Customer: I'm looking for a loan.
+Customer: I work in agriculture.
+Customer: No, I don't.
+Customer: No, I have a loan. This is Bangalore, right?
+Customer: Yes, I do.
+Customer: Yes, I do.
+Customer: It's 1851595.
+Customer: I'm looking for a petrol vehicle.
+Customer: Manoj, Do you have vehicles for daily use?
+Customer: I have two vehicles already. One is from 2017 and the other from 2014.
+Customer: WB registration?
+Customer: The I-10 is too small.
+Customer: What about petrol options?
+Customer: What?
+Customer: What are the benefits?
+Customer: How much is the vehicle price?
+Customer: It looks okay, but what about the warranty?
+Customer: What about the Swift diesel?
+Customer: And the second one?
+Customer: What about the Tiago?
+Customer: Where are you from?
+Customer: Around Rs. 12,000.
+Customer: Can I see the car?
+Customer: Hmm, the paint job seems a bit off, and there are some scratches. Also, the interior isn't very clean.
+Customer: That sounds better. I'll think about it.
+Customer: Alright, I'll get back to you soon.

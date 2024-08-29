@@ -1,0 +1,29 @@
+The customer requirements for Car A from Conv1: 
+
+
+Customer: Okay, white is okay. No special preference, and what about the budget? How much can you offer for that? No details mentioned.  
+Customer: The car without any label? You remove the labels for the sold ones, or what?  
+Customer: Right, so my requirement is...  
+Customer: I have a budget of about Rs. 800,000, and I'm really looking for something spacious and safe, safety first. Maybe a compact SUV, yes, compact SUV. And maybe like a Mahindra XUV or something similar.  
+Customer: No petrol, please. Diesel only.  
+Customer: I don’t, I don’t mind, whatever is best for my budget.  
+Customer: How do you ensure they are safe?  
+Customer: But how can I trust that it's always maintained well? There might be hidden problems.  
+Customer: So what support do I get after I buy? I mean, like warranty?  
+Customer: Wait, so the warranty is just three months for that?  
+Customer: So if something goes wrong after three months?  
+Customer: Within five days, like? But what about the registration?  
+Customer: So, till then? What’s the process for ownership during that time?  
+Customer: Will I get a confirmation before that?  
+Customer: Great. So can you now, um, check if we have SUVs that fit my requirements?  
+Customer: I want to avoid small ones, you know? Like, the tiny models.  
+Customer: Yes, I don’t like hatchbacks at all. Something spacious. Like, what about, maybe, a Creta?  
+Customer: How much does the Creta cost?  
+Customer: If I need to go lower, what do you suggest?  
+Customer: Okay, okay, if I wanted to consider really low mileage, would that be within budget?  
+Customer: Like, uh, if the mileage is higher, does that affect the resale value later on?  
+Customer: Okay, I see. So what's the driveable life of these models?  
+Customer: Okay. What about test drives? Can I take one?  
+Customer: Okay, I may want a home test drive, but when can I schedule that?  
+Customer: Okay then. Thanks for your help!  
+

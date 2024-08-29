@@ -1,0 +1,28 @@
+The customer requirements for Car A from Conv7: 
+
+
+Customer: Tigor? Okay, sir.
+Customer: Is this an exchange model?
+Customer: How is the overall condition?
+Customer: Can you show me the service book?
+Customer: Yes, sir.
+Customer: Cruise control?
+Customer: Yes, sir.
+Customer: What about the previous owner?
+Customer: What different driving modes are available?
+Customer: Is the engine the same?
+Customer: What's the difference between XZ and XZ Plus?
+Customer: Does it come with a sunroof?
+Customer: Can I see the boot space?
+Customer: How much does the tire weigh?
+Customer: How does the buyback work?
+Customer: Is the engine tampered with?
+Customer: Okay.
+Customer: Okay.
+Customer: Okay, sir.
+Customer: Yes, sir.
+Customer: Sir, what are the scratches?
+Customer: I don't know.
+Customer: It's good that you are advertising the price of the car.
+Customer: No sir, there is no negotiation in the price.
+Customer: Fine sir.

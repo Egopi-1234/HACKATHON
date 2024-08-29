@@ -1,0 +1,42 @@
+The customer requirements for Car A from Conv5: 
+
+
+Customer: No, time is there. We are looking for vehicles actually, automatic. 
+Customer: Particularly you are looking any... 
+Customer: From Whitefield. 
+Customer: Yes. Can we get any good vehicles here? 
+Customer: Petrol? 
+Customer: That is 8 lakhs man. Show me like more... which is like below... 6 or 7, 7. 
+Customer: Quid okay? 
+Customer: No, no. He wanted to go with like Ebo or Swift. Even Balino also fine for me. 
+Customer: Okay. Thank you. 
+Customer: Bye. 
+Customer: Okay. 
+Customer: Ok this one. 
+Customer: Ok we will see this vehicle. After that we will look for manual results. 
+Customer: Which one? 
+Customer: 720. 
+Customer: What is L? 
+Customer: Left. 
+Customer: It's ok I will park reverse. 
+Customer: Yes 3rd party insurance also included. 
+Customer: Yes 6,23,000. 72,000 driven single owner. 
+Customer: Yes. Repainted. 
+Customer: No if any major first of all we won't procure on. 
+Customer: Really? 
+Customer: Yeah. 
+Customer: Yeah 85%. 
+Customer: Can we close the deal by around 5.8? Is there any option? 
+Customer: Okay give me some time like I will decide. 
+Customer: Thank you. 
+Customer: Sorry sorry. 
+Customer: No no your mobile number. 
+Customer: Okay fine name sir. 
+Customer: Yes diesel. 
+Customer: Booked yes. 2017 model that is diesel. 87,000 driven.
+Customer: Wait a minute, can I take a closer look at the car?
+Customer: Hmm, I see some scratches on the paint job here. And the cleanliness inside isn't up to the mark.
+Customer: Also, I hear a slight noise from the engine. Is that normal?
+Customer: Alright, please do that. I want to make sure I'm getting a good deal.
+Customer: Thank you. I'll wait for your call.
+

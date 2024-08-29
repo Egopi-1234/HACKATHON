@@ -1,0 +1,26 @@
+The customer requirements for Car A from Conv9: 
+
+
+Customer: Yes, I just booked it now.
+Customer: No, I haven't received any message yet.
+Customer: How much does it cost?
+Customer: Can I get a loan for this vehicle?
+Customer: I was considering YoCars finance. I'll need to check their terms.
+Customer: What other vehicles are available within this budget?
+Customer: How's the power of the car?
+Customer: Do you need to check my eligibility for financing?
+Customer: Will this affect my credit score?
+Customer: Yes, I have.
+Customer: Can I take a test drive?
+Customer: Yes, let's do the test drive.
+Customer: Around 10 km per liter.
+Customer: That's fine. Is the car non-tampered?
+Customer: How can I proceed with this vehicle?
+Customer: No one informed me about this. Next time, please notify me when it goes live.
+Customer: What is FC?
+Customer: Is this car roadworthy?
+Customer: Okay.
+Customer: 90 days?
+Customer: Yes, I have.
+Customer: Okay, will do.
+Customer: Understood. Thank you for the information.

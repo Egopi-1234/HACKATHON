@@ -1,0 +1,29 @@
+The customer requirements for Car A from Conv10: 
+
+
+Customer: I'm good, thank you. What will be the registration process?
+Customer: Okay, can we take a test drive of your car?
+Customer: No, no. This is for my family. They want to check it out.
+Customer: Prashant.
+Customer: They said Prashant. Who assisted you?
+Customer: No, no. They want a family King Out Auto. Hasn't it started yet?
+Customer: 7******139.
+Customer: Just give me two minutes, ma'am. I will get the vehicle and I will call you.
+Customer: Slowly, sir.
+Customer: Sir?
+Customer: Is it too loose?
+Customer: What is the vibration? Light vibration?
+Customer: Clutch in the lower gear is vibrating. Do you want to try?
+Customer: No, you stop here. You can turn the car.
+Customer: No, you start from the inside.
+Customer: No, you start from the inside.
+Customer: I will.
+Customer: I don't want to talk.
+Customer: Then it will stand.
+Customer: You stand.
+Customer: No, you speak.
+Customer: Then it will take a while.
+Customer: By the way, I find the price a bit expensive. Is there any room for negotiation?
+Customer: Hmm, I see. That does sound comprehensive.
+Customer: Alright, that's good to know. Thank you.
+Customer: Yes, let's do that.

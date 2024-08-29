@@ -1,0 +1,42 @@
+The customer requirements for Car A from Conv6: 
+
+
+Customer: Anything without sugar, please.
+Customer: Yes, of course.
+Customer: Yes.
+Customer: Prefer manual.
+Customer: Diesel.
+Customer: Okay, the driver is also a 7-seater?
+Customer: I like the Mobilio you're mentioning.
+Customer: Not possible to get it?
+Customer: Please do.
+Customer: Is financing available?
+Customer: How much is the service cost for the car?
+Customer: Is there any pending work on the car?
+Customer: So, is there a chance of loan rejection?
+Customer: How much is the financial cost?
+Customer: So, you're saying it's third-party financing?
+Customer: How spacious is the seating?
+Customer: Is the vehicle here?
+Customer: What about the mileage?
+Customer: Fixed price?
+Customer: How can I notify you?
+Customer: Is this the car?
+Customer: What's the mileage of this car?
+Customer: 12-13 km/l?
+Customer: What about this?
+Customer: Why does it show 211?
+Customer: Has it been in an accident?
+Customer: Do you have the service reports?
+Customer: When was it last serviced?
+Customer: What's the price?
+Customer: What's your name?
+Customer: I'll call you.
+Customer: Please do this quickly.
+Customer: Is it a first-owner or second-owner car?
+Customer: Is it adjustable?
+Customer: This is the bucket seat, right? Let me sit and see.
+Customer: Wait, I see some scratches on the paint. And the interior doesn't seem very clean.
+Customer: Also, I hear some noise from the engine. Is that normal?
+Customer: Alright, please ensure everything is in top condition.
+

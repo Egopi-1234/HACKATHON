@@ -1,0 +1,46 @@
+The customer requirements for Car A from Conv8: 
+
+
+Customer: What about the features?
+Customer: How much would that cost approximately?
+Customer: What about the shift lock release?
+Customer: My brother has the same car.
+Customer: Is there an option for an extended warranty?
+Customer: How does that work?
+Customer: So, I would get an additional 12 months or 12,000 km?
+Customer: What about the test drive?
+Customer: I booked a test drive for the RDA3 on Thursday, but that's from Belandur.
+Customer: Because that car is registered in Haryana, will I need to pay anything extra?
+Customer: So, I will be paying new road tax for Karnataka registration?
+Customer: How long will that take?
+Customer: So, I can start driving with the Haryana number in the meantime?
+Customer: So, the price listed in the application is the final price?
+Customer: What about the service before delivery?
+Customer: Why is the vehicle not clean?
+Customer: I also noticed some scratches on the rear bumper. 
+Customer: Where do you stay?
+Customer: I wanted my wife to do a test drive.
+Customer: I paid 10,000 already for this car.
+Customer: I am okay to take this car or the RDA3.
+Customer: Have you already blocked the test drive?
+Customer: I saw that, that's why I booked the 10,000.
+Customer: Sir, can I have a contact number?
+Customer: 3 days.
+Customer: Okay, cool. Can you do this for me on Thursday? Can you bring this car for a test drive? I can give you my location.
+Customer: I am happy to pay for even the test drive.
+Customer: I asked for a home test drive because my wife can also be a part of it. I came from work, actually.
+Customer: Should be 32 kilometers.
+Customer: I want my family to be there.
+Customer: I will show you my number. You can just WhatsApp me the location.
+Customer: If that is the case, what time works for Thursday for you?
+Customer: 10 to 11 works for me.
+Customer: That's my number. I already received a call for a loan, actually. I told them I will wait for one or two days to do the test drive.
+Customer: Got it.
+Customer: I will also book the RD.
+Customer: So many people have been interested.
+Customer: Okay, I texted you the location.
+Customer: Perfect. Can you also do me a favor? Can you check the driver and the air light? Don't touch anything; it's completely brand new.
+Customer: Thank you. I am going to leave it at that. I will not cancel.
+Customer: Thank you so much. If you receive any test drive feedback, please let me know.
+Customer: Bye.
+
