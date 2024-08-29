@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NIRAL Hackathon - Car Sales Conversation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #6882a8;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #9e2851;
+            color: #64e302;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 50px auto;
+        }
+
+        .folder {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            margin: 20px 0;
+            width: 300px;
+            padding: 20px;
+            text-align: center;
+            transition: background-color 0.3s;
+            cursor: pointer;
+        }
+
+        .folder:hover {
+            background-color: #e9ecef;
+        }
+
+        .section {
+            display: none;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 50px auto;
+        }
+
+        .box {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            width: 200px;
+            height: 150px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: background-color 0.3s;
+        }
+
+        .box:hover {
+            background-color: #e9ecef;
+        }
+
+        footer {
+            background-color: #007bff;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>NIRAL Hackathon - Car Sales Conversation</h1>
+</header>
+
+<div class="container">
+    <div class="folder" onclick="showSection('requirements')">
+        ->Customer Requirements for a Car
+    </div>
+    <div class="folder" onclick="showSection('policies')">
+        ->Company Policies Discussed
+    </div>
+    <div class="folder" onclick="showSection('objections')">
+        ->Customer Objections
+    </div>
+</div>
+
+<div id="requirements" class="section">
+    <div class="box">Requirement 1</div>
+    <div class="box">Requirement 2</div>
+    <div class="box">Requirement 3</div>
+    <div class="box">Requirement 4</div>
+    <div class="box">Requirement 5</div>
+    <div class="box">Requirement 6</div>
+    <div class="box">Requirement 7</div>
+    <div class="box">Requirement 8</div>
+    <div class="box">Requirement 9</div>
+    <div class="box">Requirement 10</div>
+    <div class="box">Requirement 11</div>
+    <div class="box">Requirement 12</div>
+</div>
+
+<div id="policies" class="section">
+    <div class="box">Policy 1</div>
+    <div class="box">Policy 2</div>
+    <div class="box">Policy 3</div>
+    <div class="box">Policy 4</div>
+    <div class="box">Policy 5</div>
+    <div class="box">Policy 6</div>
+    <div class="box">Policy 7</div>
+    <div class="box">Policy 8</div>
+    <div class="box">Policy 9</div>
+    <div class="box">Policy 10</div>
+    <div class="box">Policy 11</div>
+    <div class="box">Policy 12</div>
+</div>
+
+<div id="objections" class="section">
+    <div class="box">Objection 1</div>
+    <div class="box">Objection 2</div>
+    <div class="box">Objection 3</div>
+    <div class="box">Objection 4</div>
+    <div class="box">Objection 5</div>
+    <div class="box">Objection 6</div>
+    <div class="box">Objection 7</div>
+    <div class="box">Objection 8</div>
+    <div class="box">Objection 9</div>
+    <div class="box">Objection 10</div>
+    <div class="box">Objection 11</div>
+    <div class="box">Objection 12</div>
+</div>
+
+<footer>
+    &copy; 2024 NIRAL Hackathon
+</footer>
+
+<script>
+    function showSection(sectionId) {
+        // Hide all sections
+        document.querySelectorAll('.section').forEach(function(section) {
+            section.style.display = 'none';
+        });
+
+        // Show the selected section
+        document.getElementById(sectionId).style.display = 'flex';
+    }
+</script>
+
+</body>
+</html>

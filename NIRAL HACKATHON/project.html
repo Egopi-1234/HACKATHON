@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NIRAL Hackathon - Car Sales Conversation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #6882a8;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #9e2851;
+            color: #64e302;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 50px auto;
+            flex-wrap: wrap;
+        }
+
+        .header-img {
+            max-width: 400px; 
+            margin-right: 20px;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+
+        .header-img:hover {
+            transform: scale(1.1); 
+        }
+
+        .folders {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .folder {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            margin: 20px 0;
+            width: 300px;
+            padding: 20px;
+            text-align: center;
+            transition: background-color 0.3s;
+            cursor: pointer;
+        }
+
+        .folder:hover {
+            background-color: #e9ecef;
+        }
+
+        .accordion {
+            background-color: #9e2851;
+            color: white;
+            cursor: pointer;
+            padding: 18px;
+            width: 100%;
+            text-align: left;
+            border: none;
+            outline: none;
+            transition: background-color 0.3s;
+        }
+
+        .accordion:hover {
+            background-color: #7a1f3c;
+        }
+
+        .accordion:after {
+            content: '\002B'; 
+            font-size: 13px;
+            color: white;
+            float: right;
+            margin-left: 5px;
+        }
+
+        .active:after {
+            content: "\2212"; 
+        }
+
+        .panel {
+            padding: 0 18px;
+            background-color: white;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease-out;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            margin-top: 10px;
+        }
+
+        .panel .box {
+            background-color: #f7f7f7;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            width: 200px;
+            height: 150px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: background-color 0.3s;
+            cursor: pointer;
+        }
+
+        .panel .box:hover {
+            background-color: #e9ecef;
+        }
+
+        footer {
+            background-color: #007bff;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+            width: 100%;
+            margin-top: 50px;
+        }
+
+        footer .social-icons {
+            margin: 10px 0;
+        }
+
+        footer .social-icons a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+            font-size: 1.5em;
+            transition: color 0.3s;
+        }
+
+        footer .social-icons a:hover {
+            color: #64e302;
+        }
+
+        footer .back-to-top {
+            position: absolute;
+            right: 20px;
+            bottom: 20px;
+            background-color: #64e302;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+
+        footer .back-to-top:hover {
+            background-color: #51b600;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>NIRAL Hackathon - Car Sales Conversation</h1>
+</header>
+
+<div class="container">
+    <img src="C:/Users/gopie/Downloads/hackathonimage1.jpg" alt="Hackathon Image" class="header-img">
+    <div class="folders">
+        <button class="accordion">Customer Requirements for a Car</button>
+        <div class="panel">
+            <!-- Content for requirements -->
+            <div class="box" onclick="openDetail('Requirement 1', 'This is the detailed information for Requirement 1.')">Requirement 1</div>
+            <div class="box" onclick="openDetail('Requirement 2', 'This is the detailed information for Requirement 2.')">Requirement 2</div>
+            <div class="box" onclick="openDetail('Requirement 3', 'This is the detailed information for Requirement 3.')">Requirement 3</div>
+            <div class="box" onclick="openDetail('Requirement 4', 'This is the detailed information for Requirement 4.')">Requirement 4</div>
+            <div class="box" onclick="openDetail('Requirement 5', 'This is the detailed information for Requirement 5.')">Requirement 5</div>
+            <div class="box" onclick="openDetail('Requirement 6', 'This is the detailed information for Requirement 6.')">Requirement 6</div>
+            <div class="box" onclick="openDetail('Requirement 7', 'This is the detailed information for Requirement 7.')">Requirement 7</div>
+            <div class="box" onclick="openDetail('Requirement 8', 'This is the detailed information for Requirement 8.')">Requirement 8</div>
+            <div class="box" onclick="openDetail('Requirement 9', 'This is the detailed information for Requirement 9.')">Requirement 9</div>
+            <div class="box" onclick="openDetail('Requirement 10', 'This is the detailed information for Requirement 10.')">Requirement 10</div>
+            <div class="box" onclick="openDetail('Requirement 11', 'This is the detailed information for Requirement 11.')">Requirement 11</div>
+            <!-- Add more requirements as needed -->
+        </div>
+        <button class="accordion">Company Policies Discussed</button>
+        <div class="panel">
+            <!-- Content for policies -->
+            <div class="box" onclick="openDetail('Policy 1', 'This is the detailed information for Policy 1.')">Policy 1</div>
+            <div class="box" onclick="openDetail('Policy 2', 'This is the detailed information for Policy 2.')">Policy 2</div>
+            <div class="box" onclick="openDetail('Policy 3', 'This is the detailed information for Policy 3.')">Policy 3</div>
+            <div class="box" onclick="openDetail('Policy 4', 'This is the detailed information for Policy 4.')">Policy 4</div>
+            <div class="box" onclick="openDetail('Policy 5', 'This is the detailed information for Policy 5.')">Policy 5</div>
+            <div class="box" onclick="openDetail('Policy 6', 'This is the detailed information for Policy 6.')">Policy 6</div>
+            <div class="box" onclick="openDetail('Policy 7', 'This is the detailed information for Policy 7.')">Policy 7</div>
+            <div class="box" onclick="openDetail('Policy 8', 'This is the detailed information for Policy 8.')">Policy 8</div>
+            <div class="box" onclick="openDetail('Policy 9', 'This is the detailed information for Policy 9.')">Policy 9</div>
+            <div class="box" onclick="openDetail('Policy 10', 'This is the detailed information for Policy 10.')">Policy 10</div>
+            <div class="box" onclick="openDetail('Policy 11', 'This is the detailed information for Policy 11.')">Policy 11</div>
+            <!-- Add more policies as needed -->
+        </div>
+        <button class="accordion">Customer Objections</button>
+        <div class="panel">
+            <!-- Content for objections -->
+            <div class="box" onclick="openDetail('Objection 1', 'This is the detailed information for Objection 1.')">Objection 1</div>
+            <div class="box" onclick="openDetail('Objection 2', 'This is the detailed information for Objection 2.')">Objection 2</div>
+            <div class="box" onclick="openDetail('Objection 3', 'This is the detailed information for Objection 3.')">Objection 3</div>
+            <div class="box" onclick="openDetail('Objection 4', 'This is the detailed information for Objection 4.')">Objection 4</div>
+            <div class="box" onclick="openDetail('Objection 5', 'This is the detailed information for Objection 5.')">Objection 5</div>
+            <div class="box" onclick="openDetail('Objection 6', 'This is the detailed information for Objection 6.')">Objection 6</div>
+            <div class="box" onclick="openDetail('Objection 7', 'This is the detailed information for Objection 7.')">Objection 7</div>
+            <div class="box" onclick="openDetail('Objection 8', 'This is the detailed information for Objection 8')">Objection 8</div>
+            <div class="box" onclick="openDetail('Objection 9', 'This is the detailed information for Objection 9.')">Objection 9</div>
+            <div class="box" onclick="openDetail('Objection 10', 'This is the detailed information for Objection 10.')">Objection 10</div>
+            <div class="box" onclick="openDetail('Objection 11', 'This is the detailed information for Objection 11.')">Objection 11</div>
+            <!-- Add more objections as needed -->
+        </div>
+    </div>
+</div>
+
+<footer>
+    <div>©NIRAL 2k24 Hackathon Event</div>
+    <div class="social-icons">
+        <a href="https://twitter.com" target="_blank">Twitter</a>
+        <a href="https://facebook.com" target="_blank">Facebook</a>
+        <a href="https://instagram.com" target="_blank">Instagram</a>
+    </div>
+    <a href="#" class="back-to-top">Back to Top</a>
+</footer>
+
+<script>
+    var acc = document.getElementsByClassName("accordion");
+    for (var i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.maxHeight) {
+                panel.style.maxHeight = null;
+            } else {
+                panel.style.maxHeight = panel.scrollHeight + "px";
+            }
+        });
+    }
+
+    function openDetail(title, detail) {
+        const detailWindow = window.open('', '_blank');
+        detailWindow.document.write(`
+            <html>
+            <head>
+                <title>${title}</title>
+                <style>
+                    body {
+                        font-family: Arial, sans-serif;
+                        background-color: #f0f0f0;
+                        color: #333;
+                        margin: 0;
+                        padding: 20px;
+                    }
+                    h2 {
+                        font-size: 2em;
+                        color: #9e2851;
+                    }
+                    p {
+                        font-size: 1.2em;
+                    }
+                </style>
+            </head>
+            <body>
+                <h2>${title}</h2>
+                <p>${detail}</p>
+            </body>
+            </html>
+        `);
+    }
+    document.querySelector('.back-to-top').addEventListener('click', function(e) {
+        e.preventDefault();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+</script>
+</body>
+</html>
